@@ -1,0 +1,50 @@
+body{
+    background: rgb(14, 14, 14);
+    }
+    
+    #Header a:hover{
+    color: black;
+    }
+
+    #Header {
+        color: black
+    }
+    
+    #bg-image{
+    background: url("https://images.pexels.com/photos/735621/pexels-photo-735621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 1300px;
+    }
+    
+    #AboutMe{
+    margin-top: -1200px;
+    color: black;
+    }
+    
+    #Portfolio{
+    margin-top: -1200px;
+    }
+    
+    #Contact{
+    margin-top: -1200px;
+    color: black;
+    }
+    
+    .display-4{
+    color: black;
+    }
+    
+    
+    p{
+    color: black;
+    }
+    
+    .card-footer{
+    margin-top: -50px;
+    }
+    
+    #Portfolio-Footer{
+    margin-top: 40px;
+    }
+    

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <title>Contact</title>
+  <link rel = "stylesheet"
+  type = "text/css"
+  href = "style.css"/>
+</head>
+<body>
+  <!--Navbar-->
+  <div id="Header">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand"><h3>Ashley Arndt</h3></a>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="index.html" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Background Image-->
+    <div id="bg-image"></div>
+
+    <!--Contact Content, Form, Text Area, Submit Button & Footer -->
+    <div id="Contact">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div id="Contact Content">
+                <div class="card bg-dark">
+                  <div class="card-title my-5">
+                    <div class="media">
+                      <div class="media-body">
+                        <h3 class="display-4 ml-5">Contact</h3>
+                        <p class="text-muted ml-5">Programmer | Blogger</p>
+                        <div class="container">
+                            <form class="form-horizontal" action="/action_page.php">
+                              <div class="form-group">
+                                <label class="control-label col-sm-2" for="email">Name:</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control" id="email" placeholder="ENTER YOUR FULL NAME">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Email:</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="pwd" placeholder="ENTER YOUR EMAIL ADDRESS">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="comment">Message:</label>
+                                  <textarea class="form-control" rows="30" id="comment"></textarea>
+                                </div>
+                              <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                  <button type="submit" class="btn btn-light">Submit</button>
+                                </div>
+                              </div>
+                            </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer bg-warning">
+                    <p ALIGN=CENTER>Copyright 2019 &copy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
+
+
+          
